@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B4B177B-992F-49DB-9074-DB93D76419C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mcv</RootNamespace>
+    <AssemblyName>Mcv</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionType.cs" />
+    <Compile Include="Context\ContextEventArgs.cs" />
+    <Compile Include="Context\ContextPlugin.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="ControlViewBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlViewBase.Designer.cs">
+      <DependentUpon>ControlViewBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlViewProvider.cs" />
+    <Compile Include="Context\IContextSupport.cs" />
+    <Compile Include="Descripter\AttributeMemberDescriptor.cs" />
+    <Compile Include="IControllerAware.cs" />
+    <Compile Include="IViewNotifySupport.cs" />
+    <Compile Include="IViewProvider.cs" />
+    <Compile Include="Parameter\ParameterPlugin.cs" />
+    <Compile Include="Plugin\ViewParameterAttribute.cs" />
+    <Compile Include="Plugin\IControllerPlugin.cs" />
+    <Compile Include="Plugin\PluginContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IViewEventSupport.cs" />
+    <Compile Include="ViewAttribute.cs" />
+    <Compile Include="Context\ViewContextAttribute.cs" />
+    <Compile Include="ViewExitEventArgs.cs" />
+    <Compile Include="ViewForwardEventArgs.cs" />
+    <Compile Include="ViewNotifyEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlViewBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ControlViewBase.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
