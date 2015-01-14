@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/Plugin
+END
+IControllerPlugin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/Plugin/IControllerPlugin.cs
+END
+PluginContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/Plugin/PluginContext.cs
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv
+END
+IControllerAware.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/IControllerAware.cs
+END
+ViewForwardEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ViewForwardEventArgs.cs
+END
+ActionType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ActionType.cs
+END
+Mcv.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/Mcv.csproj
+END
+ViewNotifyEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ViewNotifyEventArgs.cs
+END
+IViewEventSupport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/IViewEventSupport.cs
+END
+ControlViewBase.resx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ControlViewBase.resx
+END
+ViewExitEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ViewExitEventArgs.cs
+END
+Controller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/repos/qitec-package/!svn/ver/588/Mcv/trunk/Mcv/Controller.cs
+END
+ControlViewProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ControlViewProvider.cs
+END
+ViewAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ViewAttribute.cs
+END
+IViewProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/IViewProvider.cs
+END
+ControlViewBase.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repos/qitec-package/!svn/ver/172/Mcv/trunk/Mcv/ControlViewBase.Designer.cs
+END
+ControlViewBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/ControlViewBase.cs
+END
+IViewNotifySupport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/qitec-package/!svn/ver/170/Mcv/trunk/Mcv/IViewNotifySupport.cs
+END
